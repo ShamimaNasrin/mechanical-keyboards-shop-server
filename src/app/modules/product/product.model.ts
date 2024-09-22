@@ -39,10 +39,10 @@ const productSchema = new Schema<TProduct>({
     type: String,
     required: [true, "Description is required"],
   },
-  quantity: {
-    type: Number,
-    default: 0,
-  },
+  // quantity: {
+  //   type: Number,
+  //   default: 0,
+  // },
   isDeleted: {
     type: Boolean,
     default: false,

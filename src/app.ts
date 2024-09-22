@@ -1,5 +1,6 @@
 import express, { Application, NextFunction, Request, Response } from "express";
 import cors from "cors";
+import { ProductRoutes } from "./app/modules/product/product.route";
 
 const app: Application = express();
 
@@ -14,7 +15,7 @@ app.use(
 );
 
 // application routes
-// app.use("/api/products", ProductRoutes);
+app.use("/api/products", ProductRoutes);
 
 app.get("/", (req, res) => {
   res.send("keyclicks server running!!");

@@ -19,7 +19,7 @@ const productValidationSchema = z.object({
     .min(0, "Rating cannot be less than 0")
     .max(5, "Rating cannot be more than 5"),
   description: z.string().min(1, "Description is required"),
-  quantity: z.number().default(0),
+  // quantity: z.number().default(0),
   isDeleted: z.boolean().default(false),
 });
 

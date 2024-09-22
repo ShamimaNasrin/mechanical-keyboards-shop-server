@@ -18,6 +18,6 @@ export type TProduct = {
   price: number;
   rating: number;
   description: string;
-  quantity: number;
+  // quantity: number;
   isDeleted: boolean;
 };
