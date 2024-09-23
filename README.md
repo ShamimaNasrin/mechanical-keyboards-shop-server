@@ -72,8 +72,6 @@ Once the server is running, it will expose various API endpoints to be consumed 
 ### Example API Endpoints
 
 - **GET /api/products**: Retrieve a list of all products.
-- **POST /api/cart**: Add items to the user's cart.
-- **POST /api/order**: Place an order with the items in the cart.
 
 Make sure to replace `your-database-url` with the actual MongoDB connection string. The server listens on port `5000` by default but can be configured to use any available port via the `.env` file.
 

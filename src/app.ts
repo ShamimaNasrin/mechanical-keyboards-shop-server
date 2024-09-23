@@ -11,7 +11,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://mechanical-keyboards-client.vercel.app/",
+      "https://mechanical-keyboards-client.vercel.app",
     ],
     credentials: true,
   })
