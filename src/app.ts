@@ -9,7 +9,10 @@ app.use(express.json());
 // app.use(cors());
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://mech-arcade-seven.vercel.app"],
+    origin: [
+      "http://localhost:5173",
+      "https://mechanical-keyboards-client.vercel.app/",
+    ],
     credentials: true,
   })
 );
