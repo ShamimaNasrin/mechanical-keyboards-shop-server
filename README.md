@@ -1,6 +1,6 @@
 # KeyClicks
 
-### Live URL: &nbsp; &nbsp; [keyclicks.vercel.app](https://keyclicks.vercel.app/)
+### Live URL: &nbsp; &nbsp; [keyclicks.vercel.app](https://mechanical-keyboards-server.vercel.app)
 
 ## Introduction
 
