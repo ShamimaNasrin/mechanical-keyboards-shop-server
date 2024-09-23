@@ -4,7 +4,7 @@
 
 ## Introduction
 
-KeyClicks is a backend server application for an e-commerce platform dedicated to mechanical keyboard enthusiasts. Designed to support a smooth and enjoyable shopping experience, this server handles the heavy lifting of data management, user authentication, and API interactions, providing a solid foundation for the client-side application.
+KeyClicks is a backend server application for an e-commerce platform dedicated to mechanical keyboard enthusiasts. Designed to support a smooth and enjoyable shopping experience, this server handles the heavy lifting of data management, and API interactions, providing a solid foundation for the client-side application.
 
 ## Project Overview
 
@@ -13,9 +13,6 @@ KeyClicks' server-side application is built with Node.js and Express, powered by
 ## Key Features
 
 - **Product Management**: APIs for CRUD operations on mechanical keyboard products.
-- **User Management**: Endpoints for managing user data and authentication.
-- **Cart & Checkout**: Backend logic for managing shopping carts and processing orders.
-- **Inventory Management**: Tools for tracking product availability and updating stock levels.
 - **Validation**: Strong schema validation using Zod to ensure data integrity.
 
 ## Technology Stack
@@ -72,15 +69,7 @@ Once the server is running, it will expose various API endpoints to be consumed 
 ### Example API Endpoints
 
 - **GET /api/products**: Retrieve a list of all products.
-- **POST /api/cart**: Add items to the user's cart.
-- **POST /api/order**: Place an order with the items in the cart.
 
 Make sure to replace `your-database-url` with the actual MongoDB connection string. The server listens on port `5000` by default but can be configured to use any available port via the `.env` file.
 
-## Contributing
 
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License.
